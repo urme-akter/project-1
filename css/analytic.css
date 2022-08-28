@@ -1,0 +1,122 @@
+.analytic{
+    padding: 100px 0;
+}
+.analytic__main{
+    width: 100%;
+    padding: 100px 0;
+    background: url(../images/analytics-img.png) no-repeat;
+    background-size: cover;
+    border-radius: 60px;
+    text-align: center;
+    position: relative;
+}
+.analytic__heading{
+    font-family: var(--poppins);
+    font-size: var(--heading);
+    font-weight: var(--semibold);
+    color: var( --white);
+    margin-bottom: 15px;
+}
+.analytic__para{
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--regular);
+    color: var( --whitetwo);
+    margin-top: 10px;
+    width: 635px;
+    margin: 0 auto;
+    text-transform: capitalize;
+    line-height: 36px;
+}
+.analytic__form{
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+.analytic__formIn{
+    padding: 30px 175px 30px 30px;
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--regular);
+    color: var(--black);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.analytic__buttons{
+    width: 139px;
+    background: var(--primary);
+    padding: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.analytic__buttonsIn{
+    display: inline-block;
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--semibold);
+    color: var(--white);
+}
+.analytic__rocket{
+    position: absolute;
+    top: 10%;
+    left: 20px;
+    animation: leftright 2s alternate infinite linear;
+}
+@keyframes leftright{
+    from{
+        top: 10%;
+        left: 20px; 
+    }to{
+        top: 15%;
+        left: 30px;
+    }
+}
+.analytic__star{
+    position: absolute;
+    top: 319px;
+    left: 289px;
+    rotate: -41deg;
+    animation: shine 1s alternate infinite linear;
+}
+@keyframes shine{
+    from{
+        transform: scale(1);
+   }to{
+       transform: scale(1.2);
+   }
+}
+.analytic__starTwo{
+    position: absolute;
+    top: 261px;
+    left: 31px;
+    animation: shineTwo 2s alternate infinite linear;
+}
+@keyframes shineTwo{
+    from{
+        rotate: 60deg;
+        transform: scale(1);
+   }to{
+       transform: scale(1.5);
+       rotate: -60deg;
+   }
+}
+.analytic__starThree{
+    position: absolute;
+    top: 71px;
+    left: 266px;
+    rotate: 117deg;
+    animation: shine 1.5s alternate infinite linear;
+}
+.analytic__starFour{
+    position: absolute;
+    top: 98px;
+    left: 1092px;
+    rotate: 40deg;
+    animation: shine 1.5s alternate infinite linear;
+}
+.analytic__starFive{
+    position: absolute;
+    top: 270px;
+    left: 1200px;
+    animation: shineTwo 1.5s alternate infinite linear;
+}

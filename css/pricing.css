@@ -1,0 +1,108 @@
+.pricing{
+    padding: 200px 0;
+}
+.pricing__head{
+    text-align: center;
+}
+.pricing__subheading{
+    font-family: var(--nunito);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--primary);
+}
+.pricing__heading{
+    font-family: var(--poppins);
+    font-size: var(--heading);
+    font-weight: var(--semibold);
+    color: var(--black);
+    text-transform: capitalize;
+    margin-top: 14px;
+}
+.pricing__items{
+    margin-top: 40px;
+}
+.pricing__main{
+    display: flex;
+}
+.pricing__main:nth-child(even) .pricing__box{
+    background: var(--rowcolor);
+}
+.pricing__box{
+    width: 25%;
+    padding: 29px 40px;
+    border-right: 1px solid var(--offwhite);
+    border-bottom: 1px solid var(--offwhite);
+    position: relative;
+}
+.pricing__boxLekha{
+    font-family: var(--nunito);
+    font-size: var(--subheading);
+    font-weight: var(--regular);
+    color: var(--black);
+    text-transform: capitalize;
+}
+.pricing__boxLekhaDis{
+    font-family: var(--poppins);
+    display: inline-block;
+}
+.pricing__list{
+    font-family: var(--poppins);
+    font-size: var(--subheading);
+    font-weight: var(--semibold);
+    color: var(--opacityblack);
+    text-transform: capitalize;
+}
+.pricing__list--bg{
+    color: var(--black);
+}
+.pricing__allButtons{
+    display: flex;
+    justify-content: right;
+}
+.pricing__button{
+    padding: 37px 135px;
+    background: var(--blackTwo);
+}
+.pricing__button--bg{
+    background: var(--greenTwo);
+}
+.pricing__button--bgTwo{
+    background: var(--purple);
+}
+.pricing__buttonIn{
+    display: inline-block;
+    color: var(--white);
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--semibold);
+    text-transform: capitalize;
+}
+.pricing__items{
+    text-align: center;
+    line-height: 40px;
+}
+.pricing__box--margin{
+    text-align: left;
+}
+.pricing__main:first-child .pricing__box::after{
+   width: 98%;
+   height: 14px;
+   background: var(--gray);
+   top: 0;
+   left: 0;
+   content: " ";
+   position: absolute;
+   border-radius: 10px;
+}
+.pricing__main:first-child .pricing__box:first-child:after{
+    background: var(--aftercolor);
+}
+.pricing__main:first-child .pricing__box:nth-child(2):after{
+    background: var(--blackpure);
+}
+.pricing__main:first-child .pricing__box:nth-child(3):after{
+    background: var(--greenTwo);
+}
+.pricing__main:first-child .pricing__box:last-child:after{
+    background: var(--purple);
+}

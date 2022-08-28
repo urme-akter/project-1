@@ -1,0 +1,70 @@
+.works__main{
+    display: flex;
+}
+.works__mainLeft{
+    width: 50%;
+}
+.works__leftSubheading{
+    font-family: var(--nunito);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--primary);
+    text-transform: capitalize;
+}
+.works__leftheading{
+    font-family: var(--poppins);
+    font-size: var(--heading);
+    font-weight: var(--semibold);
+    color: var(--black);
+    text-transform: capitalize;
+}
+.works__mainRight{
+    width: 50%;
+    position: relative;
+}
+.works__rightButton{
+    width: 72px;
+    border: 1px solid var(--primary);
+    border-radius: 14px;
+    padding: 20px 30px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.works__buttonIn{
+    display: inline-block;
+    color: var(--primary);
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--semibold);
+    text-align: right;
+}
+.works__items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.works__box{
+    width: 32%;
+}
+.works__boxpic{
+    border-radius: 20px;
+}
+.works__boxHeading{
+    font-family: var(--poppins);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--black);
+    text-transform: capitalize;
+    margin-top: 25px;
+}
+.works__boxPara{
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--regular);
+    color: var(--black);
+    text-transform: capitalize;
+    margin-top: 15px;
+    line-height: 36px;
+}
+

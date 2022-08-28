@@ -1,0 +1,199 @@
+.banner{
+    background:url(../images/banner.png);
+    padding: 150px 0;
+    position: relative;
+    overflow-x: hidden;
+    padding-bottom: 718px;
+}
+.banner__cloud1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    animation: c1 1s infinite alternate linear;
+}
+@keyframes c1{
+    from{
+      left: -20px;
+    }to{
+        left: 0;
+    }
+}
+.banner__cloud2{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: c2 1s infinite alternate linear;
+}
+@keyframes c2{
+    from{
+      left: 0;
+    }to{
+      left: -20px;
+    }
+}   
+.banner__cloud3{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: c1 1s infinite alternate linear;
+}
+.banner__rocket{
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: rocket 1s linear forwards;
+}
+@keyframes rocket{
+    from{
+       top: 0;
+    }to{
+        top: -1000px;
+    }
+}
+.banner__services{
+    text-align: center;
+    font-family: var(--nunito);
+    font-weight: var(--medium);
+    font-size: var(--parafontsize);
+    color: var(--gray);
+    
+}
+.banner__service{
+    display: inline-block;
+    border: 2px solid var(--gray);
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+.banner__heading{
+    text-align: center;
+    font-family: var(--poppins);
+    font-weight: var(--bold);
+    font-size: 64px;
+    color: var(--white);
+    width: 967px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.banner__para{
+    text-align: center;
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+    font-size: var(--parafontsize);
+    color: var(--gray);
+    width: 780px;
+    margin: 0 auto;
+}
+.banner__click{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.banner__link{
+    width: 28%;
+    padding: 30px;
+    color: var(--white);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+    font-size: var(--parafontsize);
+}
+.banner__button{
+    /* width: 10%; */
+    padding: 32px 15px;
+    background: var(--primary);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.banner__Inbutton{
+    display: inline-block;
+    color: var(--white);
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+    font-size: var(--parafontsize);
+    
+}
+.banner__starOne{
+    position: absolute;
+    top: 123px;
+    left: 392px;
+    animation: glow 1s alternate infinite linear;
+}
+@keyframes glow{
+    from{
+         transform: scale(1);
+    }to{
+        transform: scale(1.4);
+    }
+}
+.banner__starTwo{
+    position: absolute;
+    top: 166px;
+    left: 202px;
+    rotate: 50deg;
+    animation: glowTwo 1s alternate infinite linear;
+}
+@keyframes glowTwo{
+    from{
+         transform: scale(1);
+         rotate: 50deg;
+    }to{
+        transform: scale(1.4);
+        rotate: -10deg;
+    }
+}
+.banner__starThree {
+    position: absolute;
+    top: 390px;
+    left: 275px;
+    rotate: 72deg;
+    animation: glow 1s alternate infinite linear;
+}
+.banner__starFour{
+    position: absolute;
+    top: 662px;
+    left: 1128px;
+    rotate: 45deg;
+    animation: glow 1s alternate infinite linear;
+}
+.banner__starFive{
+    position: absolute;
+    top: 383px;
+    left: 1434px;
+    rotate: 20deg;
+    animation: glow 1s alternate infinite linear;
+}
+.banner__starSix{
+    position: absolute;
+    top: 108px;
+    left: 1381px;
+    rotate: 30deg;
+    animation: glowSix 1s alternate infinite linear;
+}
+@keyframes glowSix{
+    from{
+         transform: scale(1);
+         rotate: 50deg;
+    }to{
+        transform: scale(1.4);
+        rotate: -10deg;
+    }
+}
+.banner__brand{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    justify-content: center;
+}

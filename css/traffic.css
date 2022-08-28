@@ -1,0 +1,74 @@
+.traffic__main{
+    display: flex;
+}
+.traffic__left{
+    width: 50%;
+    padding: 50px 10px;
+}
+.traffic__subheadingL{
+    font-family: var(--nunito);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--primary);
+}
+.traffic__headingL{
+    font-family: var(--poppins);
+    font-size: var(--heading);
+    font-weight: var(--semibold);
+    color: var(--black);
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.traffic__paraL{
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--regular);
+    color: var(--black);
+    text-transform: capitalize;
+    width: 596px;
+    margin-top: 7px;
+    line-height: 200%;
+}
+.traffic__pic{
+    margin-top: 30px;
+}
+.traffic__right{
+    width: 50%;
+    padding: 50px 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.traffic__rightPicOne{
+    position: absolute;
+    top: 8px;
+    left: 90px;
+    z-index: -1;
+    animation: round 7s  infinite linear;
+}
+@keyframes round{
+    from{
+       rotate: 0;
+    }to{
+    rotate: 360deg;
+    }
+}
+.traffic__rightPicTwo{
+    position: absolute;
+    top: 142px;
+    left: 78px;
+    animation: round 5s  infinite linear;
+}
+
+.traffic__rightPicThree{
+    position: absolute;
+    top: 98px;
+    left: 47px;
+    animation: roundThree 3s  infinite linear;
+}
+@keyframes roundThree{
+    from{
+       rotate: 360deg;
+    }to{
+    rotate: 0;
+    }
+}
